@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio</title>
+</head>
+<body>
+    <h2>testetste</h2>
+    <ul>
+        <% data.forEach(element => { %>
+        <li>
+            <h1><%= element.titulo %></h1>
+            <p><%= element.situacao %></p>
+            <p><%= element.data %></p>
+            <p><%= element.autor %></p>
+            <p><%= element.assunto %></p>
+            <p><%= element.ementa %></p>
+            <p><%= element.tramite %></p>
+        </li>
+        <% }) %>
+    </ul>
+</body>
+</html>
